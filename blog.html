@@ -1,135 +1,70 @@
-<!DOCTYPE html>
+<!-- ================================= -->
+<!-- blog.html -->
+<!-- ================================= -->
 
+<!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-
 
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Blog | SivexoSoft</title>
 
-
-<title>
-Blog | Sivexo Soft
-</title>
-
-
-
-<meta name="description" content="Read Sivexo Soft articles about web development, technology, design, AI automation and digital growth.">
-
-
-
-<link rel="icon" href="images/favicon.png">
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-
+<meta name="description"
+content="Read the latest articles, insights and digital trends from SivexoSoft.">
 
 <link rel="stylesheet" href="css/style.css">
 
-<link rel="stylesheet" href="css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
 
-
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>
 
-
-
 <body>
 
-
-
-
-
+<!-- ========================= -->
 <!-- HEADER -->
+<!-- ========================= -->
 
-<header class="header">
+<header>
 
+<nav class="navbar">
 
-<div class="container navbar">
-
-
+<div class="container">
 
 <a href="index.html" class="logo">
 
+<img src="images/logo.svg" alt="SivexoSoft Logo">
 
-<img src="images/logo.png" alt="Sivexo Soft Logo">
-
-
-<div>
-
-<h2>
-Sivexo Soft
-</h2>
-
-
-<p>
-Your Complete Digital Growth Partner
-</p>
-
-
-</div>
-
+<span>SIVEXOSOFT</span>
 
 </a>
 
+<ul class="nav-links">
 
+<li><a href="index.html">Home</a></li>
 
+<li><a href="services.html">Services</a></li>
 
+<li><a href="portfolio.html">Portfolio</a></li>
 
-<nav class="nav-menu">
+<li><a href="about.html">About</a></li>
 
+<li><a class="active" href="blog.html">Blog</a></li>
 
-<a href="index.html">
-Home
-</a>
+<li><a href="pricing.html">Pricing</a></li>
 
+<li><a href="contact.html">Contact</a></li>
 
-<a href="about.html">
-About
-</a>
+</ul>
 
-
-<a href="services.html">
-Services
-</a>
-
-
-<a href="portfolio.html">
-Portfolio
-</a>
-
-
-<a href="pricing.html">
-Pricing
-</a>
-
-
-<a href="blog.html" class="active">
-Blog
-</a>
-
-
-<a href="contact.html">
-Contact
-</a>
-
-
-</nav>
-
-
-
-
-
-
-<div class="nav-buttons">
-
-<a href="contact.html" class="btn-primary">
+<a href="contact.html" class="btn btn-primary">
 
 Get Started
 
@@ -137,834 +72,546 @@ Get Started
 
 </div>
 
-
-
-
-
-<div class="menu-btn">
-
-<i class="fa-solid fa-bars"></i>
-
-</div>
-
-
-
-
-</div>
-
+</nav>
 
 </header>
 
-
-
-
-
-
-
-
-
-<!-- PAGE HERO -->
-
+<!-- ========================= -->
+<!-- HERO -->
+<!-- ========================= -->
 
 <section class="page-hero">
 
-
 <div class="container">
 
+<span>OUR BLOG</span>
 
-<span>
-SIVEXO BLOG
-</span>
-
-
-<h1>
-Insights, Technology & Digital Growth
-</h1>
-
+<h1>Insights, Trends & Digital Knowledge</h1>
 
 <p>
 
-Learn about websites, applications, design,
-marketing and the latest technology trends.
+Stay updated with the latest trends in web development,
+AI, UI/UX, digital marketing and business growth.
 
 </p>
 
-
 </div>
-
 
 </section>
 
+<!-- ========================= -->
+<!-- FEATURED ARTICLE -->
+<!-- ========================= -->
 
+<section class="featured-blog">
 
+<div class="container">
 
+<div class="featured-grid">
 
+<div class="featured-image">
 
+<img src="images/blog/featured.webp"
+alt="Featured Blog">
 
+</div>
 
+<div class="featured-content">
 
-<!-- BLOG SECTION -->
+<span>Featured Article</span>
 
+<h2>
+
+10 Web Design Trends Every Business
+Should Know In 2026
+
+</h2>
+
+<p>
+
+Discover the latest design trends that improve
+user experience, engagement and conversions.
+
+</p>
+
+<a href="#">
+
+Read Article
+
+<i class="fas fa-arrow-right"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- BLOG GRID -->
+<!-- ========================= -->
 
 <section class="blog-section">
 
-
 <div class="container">
 
-
-
-<div class="section-title">
-
-
-<span>
-LATEST ARTICLES
-</span>
-
-
-<h2>
-Digital Knowledge Hub
-</h2>
-
-
-<p>
-Useful guides and insights to help businesses grow online.
-</p>
-
-
-</div>
-
-
-
-
-
-
-
+<div class="blog-layout">
 
 <div class="blog-grid">
 
-
-
-
-
-<!-- BLOG CARD 1 -->
-
+<!-- Blog -->
 
 <article class="blog-card">
 
-
-<img src="images/blog-web.jpg" alt="Web Development">
-
-
+<img src="images/blog/blog1.webp"
+alt="Blog">
 
 <div class="blog-content">
 
-
-<span>
-Web Development
-</span>
-
-
+<span>Web Development</span>
 
 <h3>
-Why Every Business Needs A Professional Website
+
+Why Every Business Needs
+A Modern Website
+
 </h3>
-
-
 
 <p>
 
-A modern website builds trust, increases visibility
-and helps businesses reach more customers.
+Learn how a professional website
+helps increase credibility and sales.
 
 </p>
 
-
-
 <a href="#">
-Read More →
+
+Read More
 
 </a>
 
-
-
 </div>
-
 
 </article>
 
-
-
-
-
-
-
-
-
-<!-- BLOG CARD 2 -->
-
+<!-- Blog -->
 
 <article class="blog-card">
 
-
-<img src="images/blog-ai.jpg" alt="AI Automation">
-
-
+<img src="images/blog/blog2.webp"
+alt="Blog">
 
 <div class="blog-content">
 
-
-<span>
-Artificial Intelligence
-</span>
-
-
+<span>SEO</span>
 
 <h3>
-How AI Automation Can Improve Your Business
+
+SEO Strategies That Still Work
+
 </h3>
-
-
 
 <p>
 
-Discover how businesses can save time and improve
-productivity using smart automation.
+Improve rankings with practical SEO
+techniques for modern websites.
 
 </p>
 
-
-
 <a href="#">
-Read More →
+
+Read More
 
 </a>
 
-
-
 </div>
-
 
 </article>
 
-
-
-
-
-
-
-
-
-<!-- BLOG CARD 3 -->
-
+<!-- Blog -->
 
 <article class="blog-card">
 
-
-<img src="images/blog-design.jpg" alt="UI UX Design">
-
-
+<img src="images/blog/blog3.webp"
+alt="Blog">
 
 <div class="blog-content">
 
-
-<span>
-UI/UX Design
-</span>
-
-
+<span>AI</span>
 
 <h3>
-The Importance Of User Experience Design
+
+How AI Is Changing Business
+
 </h3>
-
-
 
 <p>
 
-Great design creates better customer experiences
-and improves conversions.
+Explore practical AI applications
+for startups and enterprises.
 
 </p>
 
-
-
 <a href="#">
-Read More →
+
+Read More
 
 </a>
 
-
-
 </div>
-
 
 </article>
 
-
-
-
-
-
-
-
-
-<!-- BLOG CARD 4 -->
-
+<!-- Blog -->
 
 <article class="blog-card">
 
-
-<img src="images/blog-mobile.jpg" alt="Mobile App">
-
-
+<img src="images/blog/blog4.webp"
+alt="Blog">
 
 <div class="blog-content">
 
-
-<span>
-Mobile Development
-</span>
-
-
+<span>Marketing</span>
 
 <h3>
-Why Mobile Apps Help Businesses Grow
+
+Increase Sales With Digital Marketing
+
 </h3>
-
-
 
 <p>
 
-Mobile applications create direct connections
-between businesses and customers.
+Strategies that help businesses
+reach more customers online.
 
 </p>
 
-
-
 <a href="#">
-Read More →
+
+Read More
 
 </a>
 
-
-
 </div>
-
 
 </article>
 
+</div>
 
+<!-- ========================= -->
+<!-- SIDEBAR -->
+<!-- ========================= -->
 
+<aside class="blog-sidebar">
 
+<div class="sidebar-box">
 
+<h3>Search</h3>
 
-
+<input type="search"
+placeholder="Search articles...">
 
 </div>
 
+<div class="sidebar-box">
+
+<h3>Categories</h3>
+
+<ul>
+
+<li><a href="#">Web Development</a></li>
+
+<li><a href="#">UI / UX</a></li>
+
+<li><a href="#">AI</a></li>
+
+<li><a href="#">SEO</a></li>
+
+<li><a href="#">Marketing</a></li>
+
+<li><a href="#">Business</a></li>
+
+</ul>
 
 </div>
 
+<div class="sidebar-box">
+
+<h3>Recent Posts</h3>
+
+<ul>
+
+<li><a href="#">Top UI Trends</a></li>
+
+<li><a href="#">SEO Checklist</a></li>
+
+<li><a href="#">AI Tools</a></li>
+
+<li><a href="#">Marketing Guide</a></li>
+
+</ul>
+
+</div>
+
+</aside>
+
+</div>
+
+</div>
 
 </section>
-<!-- ==============================
-BLOG CATEGORIES
-============================== -->
+<!-- ========================= -->
+<!-- NEWSLETTER -->
+<!-- ========================= -->
 
+<section class="newsletter">
 
-<section class="services">
+    <div class="container">
 
+        <div class="newsletter-box">
 
-<div class="container">
+            <span>NEWSLETTER</span>
 
+            <h2>Stay Updated With The Latest Insights</h2>
 
-<div class="section-title">
+            <p>
 
+                Subscribe to receive the latest articles,
+                web development tips, SEO strategies,
+                AI updates and digital marketing insights.
 
-<span>
-CATEGORIES
-</span>
+            </p>
 
+            <form class="newsletter-form">
 
-<h2>
-Explore Topics
-</h2>
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required>
 
+                <button type="submit" class="btn btn-primary">
 
-<p>
-Learn more about technology and digital business growth.
-</p>
+                    Subscribe
 
+                </button>
 
-</div>
+            </form>
 
+        </div>
 
-
-
-
-
-
-<div class="services-grid">
-
-
-
-
-
-<div class="service-card">
-
-
-<div class="service-icon">
-
-<i class="fa-solid fa-code"></i>
-
-</div>
-
-
-<h3>
-Development
-</h3>
-
-
-<p>
-
-Website development, programming and technology guides.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="service-card">
-
-
-<div class="service-icon">
-
-<i class="fa-solid fa-paintbrush"></i>
-
-</div>
-
-
-<h3>
-Design
-</h3>
-
-
-<p>
-
-UI/UX design principles and creative strategies.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="service-card">
-
-
-<div class="service-icon">
-
-<i class="fa-solid fa-brain"></i>
-
-</div>
-
-
-<h3>
-AI & Technology
-</h3>
-
-
-<p>
-
-Latest AI trends and automation solutions.
-
-</p>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
+    </div>
 
 </section>
 
+<!-- ========================= -->
+<!-- POPULAR TAGS -->
+<!-- ========================= -->
 
+<section class="blog-tags">
 
+    <div class="container">
 
+        <div class="section-title">
 
+            <span>POPULAR TAGS</span>
 
+            <h2>Explore Topics</h2>
 
+        </div>
 
+        <div class="tag-list">
 
-<!-- ==============================
-NEWSLETTER
-============================== -->
+            <a href="#" class="tag">Web Development</a>
 
+            <a href="#" class="tag">HTML</a>
+
+            <a href="#" class="tag">CSS</a>
+
+            <a href="#" class="tag">JavaScript</a>
+
+            <a href="#" class="tag">React</a>
+
+            <a href="#" class="tag">SEO</a>
+
+            <a href="#" class="tag">AI</a>
+
+            <a href="#" class="tag">Automation</a>
+
+            <a href="#" class="tag">Branding</a>
+
+            <a href="#" class="tag">Marketing</a>
+
+            <a href="#" class="tag">UI / UX</a>
+
+            <a href="#" class="tag">Business</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- CTA -->
+<!-- ========================= -->
 
 <section class="cta">
 
+    <div class="container">
 
-<div class="container">
+        <div class="cta-box">
 
+            <span>LET'S GROW TOGETHER</span>
 
-<div class="cta-box">
+            <h2>Need Help With Your Next Project?</h2>
 
+            <p>
 
+                Whether you need a website,
+                mobile application,
+                branding,
+                AI solution,
+                or digital marketing,
+                SivexoSoft is here to help.
 
-<span>
-STAY UPDATED
-</span>
+            </p>
 
+            <div class="cta-buttons">
 
+                <a href="contact.html" class="btn btn-primary">
 
-<h2>
-Subscribe To Our Newsletter
-</h2>
+                    Contact Us
 
+                </a>
 
+                <a href="services.html" class="btn btn-outline">
 
-<p>
+                    Our Services
 
-Get useful technology updates, tips and digital growth insights.
+                </a>
 
-</p>
+            </div>
 
+        </div>
 
-
-
-
-<form class="newsletter">
-
-
-<input 
-type="email"
-placeholder="Enter your email"
-required>
-
-
-
-<button class="btn-primary" type="submit">
-
-Subscribe
-
-<i class="fa-solid fa-paper-plane"></i>
-
-</button>
-
-
-</form>
-
-
-
-</div>
-
-
-</div>
-
+    </div>
 
 </section>
 
-
-
-
-
-
-
-
-
-<!-- ==============================
-FOOTER
-============================== -->
-
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
 
 <footer class="footer">
 
+    <div class="container">
 
-<div class="container footer-grid">
+        <div class="footer-grid">
 
+            <div class="footer-about">
 
+                <h2>SIVEXOSOFT</h2>
 
-<div class="footer-about">
+                <p>
 
+                    CODE. DESIGN. GROW.
 
-<img src="images/logo.png" alt="Sivexo Soft">
+                </p>
 
+                <p>
 
+                    Digital Solutions That Drive Real Growth.
 
-<h3>
-Sivexo Soft
-</h3>
+                </p>
 
+                <div class="social-links">
 
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
 
-<p>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
 
-Your complete digital growth partner helping
-businesses succeed online.
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
 
-</p>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
 
+                    <a href="#"><i class="fab fa-github"></i></a>
 
+                </div>
 
+            </div>
 
+            <div>
 
-<div class="social-icons">
+                <h3>Quick Links</h3>
 
+                <ul>
 
-<a href="#">
-<i class="fa-brands fa-facebook"></i>
-</a>
+                    <li><a href="index.html">Home</a></li>
 
+                    <li><a href="services.html">Services</a></li>
 
-<a href="#">
-<i class="fa-brands fa-linkedin"></i>
-</a>
+                    <li><a href="portfolio.html">Portfolio</a></li>
 
+                    <li><a href="about.html">About</a></li>
 
-<a href="#">
-<i class="fa-brands fa-github"></i>
-</a>
+                    <li><a href="pricing.html">Pricing</a></li>
 
+                    <li><a href="contact.html">Contact</a></li>
 
-<a href="#">
-<i class="fa-brands fa-instagram"></i>
-</a>
+                </ul>
 
+            </div>
 
-</div>
+            <div>
 
+                <h3>Latest Topics</h3>
 
-</div>
+                <ul>
 
+                    <li><a href="#">Web Development</a></li>
 
+                    <li><a href="#">SEO</a></li>
 
+                    <li><a href="#">Artificial Intelligence</a></li>
 
+                    <li><a href="#">Digital Marketing</a></li>
 
+                    <li><a href="#">UI / UX Design</a></li>
 
+                </ul>
 
-<div class="footer-links">
+            </div>
 
+            <div>
 
-<h4>
-Company
-</h4>
+                <h3>Contact</h3>
 
+                <p>📧 sivexosoft@gmail.com</p>
 
-<ul>
+                <p>📞 +92 310 2686976</p>
 
+                <p>📍 Pakistan · Worldwide</p>
 
-<li>
-<a href="about.html">
-About
-</a>
-</li>
+            </div>
 
+        </div>
 
-<li>
-<a href="services.html">
-Services
-</a>
-</li>
+        <div class="footer-bottom">
 
+            <p>
 
-<li>
-<a href="portfolio.html">
-Portfolio
-</a>
-</li>
+                © 2026 SivexoSoft. All Rights Reserved.
 
+            </p>
 
-<li>
-<a href="contact.html">
-Contact
-</a>
-</li>
+        </div>
 
-
-</ul>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="footer-links">
-
-
-<h4>
-Services
-</h4>
-
-
-<ul>
-
-
-<li>
-Web Development
-</li>
-
-
-<li>
-Mobile Apps
-</li>
-
-
-<li>
-UI/UX Design
-</li>
-
-
-<li>
-AI Automation
-</li>
-
-
-</ul>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="footer-contact">
-
-
-<h4>
-Contact
-</h4>
-
-
-
-<p>
-
-<i class="fa-solid fa-envelope"></i>
-
-sivexosoft@gmail.com
-
-</p>
-
-
-
-<p>
-
-<i class="fa-solid fa-globe"></i>
-
-sivexosoft.com
-
-</p>
-
-
-
-<p>
-
-<i class="fa-solid fa-location-dot"></i>
-
-Pakistan
-
-</p>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-<div class="footer-bottom">
-
-
-<div class="container">
-
-
-<p>
-
-© 2026 Sivexo Soft. All Rights Reserved.
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
+    </div>
 
 </footer>
-
-
-
-
-
-
-
-
-
-<!-- FLOATING BUTTONS -->
-
-
-<a href="#" class="scroll-top">
-
-<i class="fa-solid fa-arrow-up"></i>
-
-</a>
-
-
-
-
-
-
-<a href="https://wa.me/" class="whatsapp">
-
-<i class="fa-brands fa-whatsapp"></i>
-
-</a>
-
-
-
-
-
-
-
-<script src="js/main.js"></script>
-
-
 
 </body>
 
